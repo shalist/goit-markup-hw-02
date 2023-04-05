@@ -1,0 +1,88 @@
+:root{
+    --primary-text-color:#2E2F42;
+
+    --secondary-text-color:#434455;
+
+    --primary-bg-color:#FFFFFF;
+
+    --accent-color:#4D5AE5;
+
+    --hover-focus-color:#404bbf;
+
+    --custom-button:#F4F4FD;
+
+}
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+/* logo */
+.logo-primary{
+    color: var(--primary-text-color);
+}
+.logo-first{
+    color: var(--accent-color);
+}
+.logo-secondary{
+    color: var(--custom-button);
+}
+
+/* ul{list-style: none;} */
+
+/* site-nav */
+.site-nav a {
+    color: var(--primary-text-color);
+}
+.site-nav a:hover, .site-nav a:focus{
+    color: var(--hover-focus-color);
+}
+
+/* contacts */
+.contacts a {
+    color: var(--primary-text-color);
+}
+.contacts a:hover, .contacts a:focus {
+    color: var(--hover-focus-color);
+}
+
+/* 1 секція - Hero */
+.hero {
+    background-color: var(--primary-text-color);
+    color: var(--primary-bg-color);
+}
+
+/* buttons */
+.button{
+    color: var(--accent-color);
+    background-color: var(--primary-bg-color);
+}
+.button.primary {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+.primary:hover,
+.primary:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--hover-focus-color);
+}
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--custom-button);
+}
+.secondary:hover, 
+.secondary:focus{
+    color: var(--primary-bg-color);
+    background-color: var(--hover-focus-color);
+}
+.footer-element{
+    background-color: var(--primary-text-color);
+    color: var(--custom-button)}
+
+
+
+/* текстові секції */
+
+
+
+/* second color  */
