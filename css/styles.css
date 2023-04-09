@@ -1,7 +1,7 @@
 :root {
-  --primary-text-color: #2e2f42;
+  --dark-accent: #2e2f42;
 
-  --secondary-text-color: #434455;
+  --main-text-color: #434455;
 
   --primary-bg-color: #ffffff;
 
@@ -9,63 +9,69 @@
 
   --hover-focus-color: #404bbf;
 
-  --custom-button: #f4f4fd;
+  --light-accent: #f4f4fd;
 }
+
+/* ==========BODY========== */
+
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
 
   background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+  color: var(--main-text-color);
 }
+
+/* ----------HEADER---------- */
 
 /* logo */
 
-.logo-primary {
+.link-logo {
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 2;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
 
-  color: var(--primary-text-color);
+  color: var(--dark-accent);
 }
-.logo-first {
+.brend-logo {
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 2;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
 
   color: var(--accent-color);
 }
-.logo-secondary {
+.link-footer {
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 2;
-
-  color: var(--custom-button);
-}
-
-ul {
-  list-style: none;
-}
-a {
+  line-height: 1.17;
+  text-transform: uppercase;
   text-decoration: none;
+
+  color: var(--light-accent);
 }
 
 /* site-nav */
-.site-nav a {
+
+.list a {
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
 
-  color: var(--primary-text-color);
+  color: var(--dark-accent);
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.list a:hover,
+.list a:focus {
   color: var(--hover-focus-color);
 }
 
@@ -75,7 +81,7 @@ a {
   font-size: 16px;
   line-height: 1.1;
 
-  color: var(--primary-text-color);
+  color: var(--dark-accent);
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -84,7 +90,7 @@ a {
 
 /* 1 секція - Hero */
 .hero {
-  background-color: var(--primary-text-color);
+  background-color: var(--dark-accent);
   color: var(--primary-bg-color);
 }
 .hero-title {
@@ -115,7 +121,7 @@ a {
 }
 .button.secondary {
   color: var(--accent-color);
-  background-color: var(--custom-button);
+  background-color: var(--light-accent);
 }
 .secondary:hover,
 .secondary:focus {
@@ -123,12 +129,12 @@ a {
   background-color: var(--hover-focus-color);
 }
 .footer-element {
-  background-color: var(--primary-text-color);
-  color: var(--custom-button);
+  background-color: var(--dark-accent);
+  color: var(--light-accent);
 }
 
 .cards {
-  background-color: var(--custom-button);
+  background-color: var(--light-accent);
 }
 
 /* текстові секції */
