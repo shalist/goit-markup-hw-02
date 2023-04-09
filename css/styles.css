@@ -81,7 +81,7 @@ body {
 
 .contacts a {
   font-weight: 400;
-  font-style: normal;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -90,6 +90,10 @@ body {
 
   color: var(--main-text-color);
 }
+.contact link {
+  font-style: normal;
+}
+
 .contacts a:hover,
 .contacts a:focus {
   color: var(--hover-focus-color);
@@ -145,6 +149,9 @@ body {
 .cards {
   background-color: var(--light-accent);
 }
+.card {
+  background-color: var(--primary-bg-color);
+}
 
 /* текстові секції */
 .title-features {
@@ -161,7 +168,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  background-color: var(--primary-bg-color);
 }
 .title {
   font-weight: 700;
