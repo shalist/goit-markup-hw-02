@@ -33,11 +33,12 @@ body {
 /*  LOGO  */
 .web-logo {
   color: var(--accent-color);
-  font-family: ralevay, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .studio-logo {
   color: var(--dark-accent);
@@ -46,6 +47,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 /* NAVIGATION */
 .nav-link {
@@ -72,6 +74,7 @@ body {
 .contact:hover,
 .contact:focus {
   color: var(--hover-focus-color);
+  font-style: normal;
 }
 
 /* ----------MAIN PAGE---------- */
@@ -92,6 +95,7 @@ body {
 .button-hero {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -119,9 +123,10 @@ body {
 }
 /* SECTION 3 */
 .title {
+  color: var(--dark-accent);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -139,15 +144,18 @@ body {
 .footer-element {
   background-color: var(--dark-accent);
   color: var(--light-accent);
+  text-transform: uppercase;
 }
 .footer-logo {
   color: var(--light-accent);
+  text-transform: uppercase;
 }
 
 /* ==========PORTFOLIO========== */
 .button-portfolio {
   color: var(--accent-color);
   background-color: var(--light-accent);
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -157,4 +165,5 @@ body {
 .button-portfolio:focus {
   color: var(--primary-bg-color);
   background-color: var(--hover-focus-color);
+  cursor: pointer;
 }
