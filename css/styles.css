@@ -16,7 +16,6 @@
 
 body {
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
 
   background-color: var(--primary-bg-color);
   color: var(--main-text-color);
@@ -32,6 +31,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -43,6 +43,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -54,6 +55,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -66,7 +68,10 @@ body {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
 
   color: var(--dark-accent);
 }
@@ -76,19 +81,25 @@ body {
 }
 
 /* contacts */
+
 .contacts a {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
 
-  color: var(--dark-accent);
+  color: var(--main-text-color);
 }
 .contacts a:hover,
 .contacts a:focus {
   color: var(--hover-focus-color);
 }
 
-/* 1 секція - Hero */
+/*----------HERO----------*/
+
 .hero {
   background-color: var(--dark-accent);
   color: var(--primary-bg-color);
@@ -96,20 +107,25 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 /* buttons */
+
 .button {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 
   color: var(--accent-color);
   background-color: var(--primary-bg-color);
 }
+
 .button.primary {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
@@ -128,29 +144,40 @@ body {
   color: var(--primary-bg-color);
   background-color: var(--hover-focus-color);
 }
-.footer-element {
-  background-color: var(--dark-accent);
-  color: var(--light-accent);
-}
 
 .cards {
   background-color: var(--light-accent);
 }
 
 /* текстові секції */
-.name {
+.title-features {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-accent);
 }
+
 .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--dark-accent);
+}
+/*----------FOOTER----------*/
+
+.footer-element {
+  background-color: var(--dark-accent);
+  color: var(--light-accent);
 }
