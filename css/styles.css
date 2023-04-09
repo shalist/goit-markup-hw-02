@@ -52,7 +52,8 @@ body {
 /* NAVIGATION */
 .nav-link {
   color: var(--dark-accent);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -155,7 +156,7 @@ body {
 .button-portfolio {
   color: var(--accent-color);
   background-color: var(--light-accent);
-  font-family: Raleway, sans-serif;
+  font-family: "Roboto", sans-serif
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
