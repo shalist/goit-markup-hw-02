@@ -22,11 +22,11 @@ body {
 
 .list {
   list-style-type: none;
-  font-style: normal;
 }
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 /* ----------HEADER---------- */
