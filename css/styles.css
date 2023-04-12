@@ -146,7 +146,6 @@ address {
 .footer-element {
   background-color: var(--dark-accent);
   color: var(--light-accent);
-  text-transform: uppercase;
 }
 .footer-logo {
   color: var(--light-accent);
